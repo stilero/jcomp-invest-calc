@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="component" method="upgrade">
+	<name>Investment Calculator</name>
+	<author>Daniel Eliasson - joomla at stilero.com</author>
+	<creationDate>2012-jun-08</creationDate>
+	<copyright>Copyright (c) 2012-jun-08 Stilero Webdesign http://www.stilero.com. All rights reserved.</copyright>
+	<authorEmail>joomla@stilero.com</authorEmail>
+	<authorUrl>www.stilero.com</authorUrl>
+	<version>1.0</version>
+	<license>GPLv2</license>
+	<description>Description</description>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>investmentcalculator.php</filename>
+		<filename>controller.php</filename>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+        <media destination="investcalc">
+            <folder>assets/js</folder>
+            <folder>assets/images</folder>
+            <folder>assets/css</folder>
+        </media>
+	<languages folder="language">
+            <language tag="en-GB">site/language/en-GB.com_investcalc.ini</language>
+            <language tag="en-GB">site/language/en-GB.com_investcalc.sys.ini</language>
+            <language tag="sv-SE">site/language/sv-SE.com_investcalc.ini</language>
+            <language tag="sv-SE">site/language/sv-SE.com_investcalc.sys.ini</language>
+        </languages>
+        <administration>
+            <!-- Administration Menu Section -->
+            <menu>Hello World!</menu>
+            <!-- Administration Main File Copy Section -->
+            <!-- Note the folder attribute: This attribute describes the folder
+                    to copy FROM in the package to install therefore files copied
+                    in this section are copied from /admin/ in the package -->
+            <files folder="admin">
+                    <!-- Admin Main File Copy Section -->
+                    <filename>index.html</filename>
+                    <folder>helpers</folder>
+            </files>
+            <languages folder="language">
+	       <language tag="en-GB">admin/language/en-GB.com_investcalc.ini</language>
+            <language tag="en-GB">admin/language/en-GB.com_investcalc.sys.ini</language>
+            <language tag="sv-SE">admin/language/sv-SE.com_investcalc.ini</language>
+            <language tag="sv-SE">admin/language/sv-SE.com_investcalc.sys.ini</language>
+	    </languages>
+	</administration>
+</install>

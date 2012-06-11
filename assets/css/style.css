@@ -1,0 +1,34 @@
+/* 
+    Document   : style
+    Created on : 2012-jun-06, 22:36:35
+    Author     : Daniel Eliasson - joomla at stilero.com
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*body{ font: 75% "Trebuchet MS", sans-serif; margin: 50px;}
+*/
+.settings input, .payback input{
+    display: block;
+    margin:3px 0 20px 0;
+    font-family: Arial, Sans-Serif;
+    font-size: 14px;
+    display: block;
+    padding: 4px;
+    width: 300px;
+}
+.jtable{
+    font-size: 120%;
+}
+.jtable th{
+    font-weight: bold;
+    text-align: left;
+}
+.jtable td, .jtable th{
+    padding:0.5em;
+}
+#dialog{
+    text-align: left;
+}
+#help-button{
+    float: right;
+}
